@@ -35,7 +35,7 @@ header nav ul li{
    background-color: #ae32c7; 
  }
  .btn{
-  @apply bg-color px-5 py-2 font-bold  hover:border-2 border-white rounded w-[120px] mb-6
+  @apply bg-color px-5 py-2 font-bold  hover:border-2 border-white rounded w-[80px] mb-6 cursor-pointer
  }
  html{
   scroll-behavior: smooth;

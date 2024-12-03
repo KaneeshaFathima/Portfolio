@@ -12,6 +12,7 @@ const Project = () => {
         <div className='flex flex-col px-10 py-5'>
           <h1 className='text-4xl  border-b-4 mb-5 w-[150px]  font-bold border-[#220f46]'>Projects</h1>
           <p className='text-[20px]'>I’ve built full-stack applications, including a weather app and an e-commerce platform, using ReactJS, Spring Boot, and MySQL. These projects highlight my skills in front-end development, API integration, and backend management.</p>
+          
         </div>
       </div>
       <div className='w-full'>
@@ -22,6 +23,7 @@ const Project = () => {
               <div className='  projectdesc'>
                 <p className=' hidden md:block text-center  md: px-5 py-5 md:text-xl '>
                   An interactive weather API project built with React.js that allows users to check real-time weather updates by searching for any city.</p>
+                  <h1 className="block md:hidden text-center  md: px-5 py-5 md:text-xl ">An interactive weather API project built with React.js.  </h1>
 
               </div>
             </Link>
@@ -32,6 +34,7 @@ const Project = () => {
               <img className='md:w-[520px]' src={ecommerce} />
               <div className='projectdesc'>
                 <p className=' hidden md:block text-center md:px-5 py-5  md:text-xl'> Full-stack e-commerce site (in progress) built with ReactJS, Spring Boot, and MySQL, featuring a responsive UI, secure authentication and product management. Check back soon for updates.</p>
+                <h1 className="block md:hidden text-center md:px-5 py-5  md:text-xl ">An Ecommerce website (in progress) built using react js, Spring Boot and MySQL.  </h1>
               </div>
             </Link>
           </div>
