@@ -7,7 +7,7 @@ import Workinprogress from './Workinprogress';
 
 const Project = () => {
   return (
-    <section id="project" className='flex flex-col px-5 py-20 justify-center justify-between bg-home text-white'>
+    <section id="project" className='flex flex-col px-5 py-20 justify-center  bg-home text-white'>
       <div className='w-full '>
         <div className='flex flex-col px-10 py-5'>
           <h1 className='text-4xl  border-b-4 mb-5 w-[150px]  font-bold border-[#220f46]'>Projects</h1>
